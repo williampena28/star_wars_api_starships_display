@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import { getShips } from '../../utilities/display_functions'
+import './index.css'
 
 const DisplayStarShips = () => {
 
@@ -32,7 +33,7 @@ const DisplayStarShips = () => {
 
   getShips();
   return (
-    <div>{shipListJSX}</div>
+    <div className='card-wrap'>{shipListJSX}</div>
   )
 }
 

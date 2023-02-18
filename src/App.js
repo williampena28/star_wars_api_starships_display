@@ -1,5 +1,6 @@
 import './App.css';
 import DisplayStarShips from './components/display_starships/index'
+import Title from './components/title/title.js'
 
 function App() {
   return (

@@ -1,0 +1,14 @@
+.card
+{
+    color: yellow;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: yellow;
+    width: 300px;
+    margin: 20px;
+}
+.card-wrap
+{
+    display: flex;
+    flex-flow: wrap;
+}
